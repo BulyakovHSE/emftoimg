@@ -8,7 +8,7 @@ import (
 	"math"
 	"os"
 
-	"code.google.com/p/draw2d/draw2d"
+	"github.com/llgcode/draw2d"
 )
 
 type Recorder interface {
