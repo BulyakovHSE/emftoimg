@@ -5,6 +5,8 @@ import (
 	"image"
 	"image/draw"
 
+	"github.com/llgcode/draw2d/draw2dimg"
+
 	"github.com/llgcode/draw2d"
 )
 
@@ -52,7 +54,7 @@ type context struct {
 
 func (f *EmfFile) initContext(w, h int) *context {
 	img := image.NewRGBA(image.Rect(0, 0, w, h))
-	gc := draw2d.NewGraphicContext(img)
+	gc := draw2dimg.NewGraphicContext(img)
 
 	return &context{
 		GraphicContext: gc,
