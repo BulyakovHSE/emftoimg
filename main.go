@@ -13,7 +13,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/pzinovkin/emftoimg/emf"
+	"github.com/documize/emftoimg/emf"
 )
 
 const VERSION = "0.1.0"

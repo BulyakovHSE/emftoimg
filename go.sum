@@ -7,9 +7,8 @@ github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0/go.mod h1:E/TSTwGw
 github.com/jung-kurt/gofpdf v1.0.0/go.mod h1:7Id9E/uU8ce6rXgefFLlgrJj/GYY22cpxn+r32jIOes=
 github.com/llgcode/draw2d v0.0.0-20190810100245-79e59b6b8fbc h1:ZvNhCJfRtl03A0VOIfvO9W22/0b6dmn1APa4Q6j9oHM=
 github.com/llgcode/draw2d v0.0.0-20190810100245-79e59b6b8fbc/go.mod h1:mVa0dA29Db2S4LVqDYLlsePDzRJLDfdhVZiI15uY0FA=
+github.com/llgcode/ps v0.0.0-20150911083025-f1443b32eedb h1:61ndUreYSlWFeCY44JxDDkngVoI7/1MVhEl98Nm0KOk=
 github.com/llgcode/ps v0.0.0-20150911083025-f1443b32eedb/go.mod h1:1l8ky+Ew27CMX29uG+a2hNOKpeNYEQjjtiALiBlFQbY=
-github.com/pzinovkin/emftoimg v0.0.0-20150330085106-da17f0c42f52 h1:Rj7bXgpT1oEfppIV4y8DZ9e1V18jfPF6JMcbCNGcDks=
-github.com/pzinovkin/emftoimg v0.0.0-20150330085106-da17f0c42f52/go.mod h1:RSJfnEMDTbSPuxU+OrgiAgMptohvNw/+GiaDCGZ8zqQ=
 golang.org/x/image v0.0.0-20180708004352-c73c2afc3b81/go.mod h1:ux5Hcp/YLpHSI86hEcLt0YII63i6oz57MZXIpbrjZUs=
 golang.org/x/image v0.0.0-20190902063713-cb417be4ba39 h1:4dQcAORh9oYBwVSBVIkP489LUPC+f1HBkTYXgmqfR+o=
 golang.org/x/image v0.0.0-20190902063713-cb417be4ba39/go.mod h1:FeLwcggjj3mMvU+oOTbSwawSJRM1uh48EjtB4UJZlP0=
