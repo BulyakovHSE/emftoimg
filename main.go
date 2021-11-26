@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/documize/emftoimg/emf"
+	"github.com/BulyakovHSE/emftoimg/emf"
 	"image/png"
 	"io"
 	"io/ioutil"
