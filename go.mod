@@ -3,7 +3,6 @@ module github.com/documize/emftoimg
 go 1.13
 
 require (
-	github.com/disintegration/imaging v0.0.0-20150319181012-3ab6ec550f20
+	github.com/disintegration/imaging v1.6.2
 	github.com/llgcode/draw2d v0.0.0-20190810100245-79e59b6b8fbc
-	golang.org/x/image v0.0.0-20190902063713-cb417be4ba39 // indirect
 )

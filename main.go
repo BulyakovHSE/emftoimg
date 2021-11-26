@@ -3,17 +3,14 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/documize/emftoimg/emf"
 	"image/png"
 	"io"
 	"io/ioutil"
 	"log"
 	"os"
 	"strings"
-	"syscall"
 	"time"
-	"unsafe"
-
-	"github.com/documize/emftoimg/emf"
 )
 
 const VERSION = "0.1.0"
@@ -56,7 +53,7 @@ func main() {
 		}
 	}
 
-	if fdata == nil && !isatty(os.Stdin.Fd()) {
+	if fdata == nil {
 		fdata, _ = ioutil.ReadAll(os.Stdin)
 	}
 
@@ -98,16 +95,4 @@ func main() {
 		float64(e1.Nanoseconds())/1000000,
 		float64(e2.Nanoseconds())/1000000)
 
-}
-
-func isatty(fd uintptr) bool {
-	var termios syscall.Termios
-
-	_, _, err := syscall.Syscall6(syscall.SYS_IOCTL, fd,
-		uintptr(TCGETS),
-		uintptr(unsafe.Pointer(&termios)),
-		0,
-		0,
-		0)
-	return err == 0
 }
