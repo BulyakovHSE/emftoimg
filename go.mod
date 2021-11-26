@@ -1,4 +1,4 @@
-module github.com/documize/emftoimg
+module github.com/BulyakovHSE/emftoimg
 
 go 1.13
 
